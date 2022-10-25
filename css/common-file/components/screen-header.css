@@ -6,13 +6,13 @@
     margin-bottom: 15px;
 }
 
-.screen-header__title{
+.screen-header-title{
     font-size: 32px;
 }
-.screen-header__icons span{
+.screen-header-icons span{
     margin-left: 25px;
 }
-.screen-header__reddot{
+.screen-header-reddot{
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -27,6 +27,6 @@
         transform: rotatez(360deg)
     }
 }
-.screen-header__icons .fa-gear:hover{
+.screen-header-icons .fa-gear:hover{
     animation: rotatecog 1s linear infinite;
 }

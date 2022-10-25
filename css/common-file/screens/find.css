@@ -4,7 +4,7 @@
     border-top: var(--main-border);
     border-bottom: var(--main-border);
 }
-.recommended-friends__title{
+.recommended-friends-title{
     font-size: 14px;
     color: var(line-color);
 }
@@ -14,14 +14,14 @@
     display: block;
     font-size: 18px;
 }
-.open-chat__header{
+.open-chat-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     opacity: 0.8;
     margin-bottom: 25px;
 }
-.open-chat__header span{
+.open-chat-header span{
     opacity: 0.6;
     position: relative;
 }
@@ -31,47 +31,47 @@
     align-items: center;
 }
 
-.open-post__title{
+.open-post-title{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.open-post__hashtags{
+.open-post-hashtags{
     text-transform: uppercase;
     opacity: 0.6;
 }
 
-.open-post__members{
+.open-post-members{
     margin-top: 7px;
     display: flex;
     align-items: center;
     margin-right: 5px;
 }
-.open-post__members img{
+.open-post-members img{
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
-.open-post__member-count{
+.open-post-member-count{
     opacity: 0.5;
     font-size: 14px;
 }
-.open-post__members.divider{
+.open-post-members.divider{
     width: 1px;
     height: 10px;
     background-color: var(--line-color)
 }
-.open-post__member-status{
+.open-post-member-status{
     color: #ffb0c0
 }
-.open-post__photo{
+.open-post-photo{
     position: relative;
 }
-.open-post__photo img{
+.open-post-photo img{
     width: 120px;
     height: 120px;
     border-radius: 10px;
 }
-.open-post__heart-count{
+.open-post-heart-count{
     background-color: rgba(0,0,0,0.8);
     color: white;
     padding: 5px;
@@ -83,7 +83,7 @@
     right: 30px;
     font-size: 12px;
 }
-.open-post__heart-count span{
+.open-post-heart-count span{
     margin-left: 3px;
 }
 @keyframes heartbeat{
@@ -101,7 +101,7 @@
     }
 }
 
-.open-post__heart-count:hover i{
+.open-post-heart-count:hover i{
     will-change: transform;
     animation: heartbeat 1s linear infinite;
 }

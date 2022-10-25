@@ -50,7 +50,7 @@
     }
 }
 
-.chat__timestamp{
+.chat-timestamp{
     color: white;
     background-color: #92a4b2;
     padding: 15px;
@@ -58,7 +58,7 @@
     border-radius: 25px;
     margin-bottom: 25px;
 }
-.chat__timestamp:hover{
+.chat-timestamp:hover{
     animation: timestamplarger 0.5s linear;
 }
 
@@ -103,13 +103,13 @@
     animation: rotatesay 1s ease-in-out infinite;
 }
 
-.message__author{
+.message-author{
     opacity: 0.8;
     font-size: 13px;
     display: block;
     margin-bottom: 8px;
 }
-.message__bubble{
+.message-bubble{
     background-color: white;
     padding: 8px 10px;
     border-radius: 15px;
@@ -117,25 +117,25 @@
     border-top-left-radius: 0px;
     margin-right: 5px;
 }
-.message__info{
+.message-info{
     display: flex;
     align-items: flex-end;
 }
-.message__time{
+.message-time{
     opacity: 0.8;
     font-size: 13px;
 }
 .message-row--own{
     justify-content: flex-end;
 }
-.message-row--own .message__bubble{
+.message-row--own .message-bubble{
     background-color: var(--yellow);
     border-top-right-radius: 0px;
     border-top-left-radius: 15px;
     margin-right: 0px;
     margin-left: 5px;
 }
-.message-row--own .message__info{
+.message-row--own .message-info{
     flex-direction: row-reverse;
 }
 .reply{
@@ -150,10 +150,10 @@
     align-items: center;
     transition: all 0.3s ease-in-out;
 }
-.reply .reply__column:first-child{
+.reply .reply-column:first-child{
     width: 10%;
 }
-.reply .reply__column:last-child{
+.reply .reply-column:last-child{
     width: 90%;
     position: relative;
 }
@@ -165,41 +165,41 @@
     transition: all 0.3s ease-in-out;
     box-sizing: border-box;
 }
-.reply__column:last-child > i,
-.reply__column:last-child button{
+.reply-column:last-child > i,
+.reply-column:last-child button{
     position: absolute;
     right: 4px;
     top: 2px;
 }
-.reply__column:last-child > i{
+.reply-column:last-child > i{
     right: 50px;
     top: 15px;
 }
-.reply__column button{
+.reply-column button{
     background-color: var(--yellow);
     border: none;
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
-.reply__column button i{
+.reply-column button i{
     opacity: 1;
 }
-.reply__column button:focus,
-.reply__column button:active{
+.reply-column button:focus,
+.reply-column button:active{
     outline: none;
 }
 .reply i{
     opacity: 0.5;
 }
 
-.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply-column:first-child,
 .reply:focus-within .fa-face-smile-wink,
 .reply:focus-within button{
     transition: opacity: 0.3s ease-in-out;
 }
 
-.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply-column:first-child,
 .reply:focus-within .fa-face-smile-wink,
 .reply:focus-within button{
     opacity: 0;
