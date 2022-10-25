@@ -22,9 +22,9 @@
     animation: hidesplashscreen 0.3s ease-in-out forwards;
     animation-delay: 3s;
 }
-.splash-screen-text{
+#splash-screen-text{
     margin-top: 25px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 @media screen and (min-width: 645px){
